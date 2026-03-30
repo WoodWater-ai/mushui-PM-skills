@@ -1,0 +1,25 @@
+{
+  "name": "prd-generator",
+  "version": "1.0.0",
+  "description": "专业的PRD生成器，支持完整需求和小需求两种模式",
+  "author": "Prometheus",
+  "tags": ["product", "prd", "requirements", "documentation", "analysis"],
+  "examples": [
+    "我想要一个用户登录功能",
+    "在库存查询页面增加按供应商筛选",
+    "需要新增供应商管理模块",
+    "创建一个新的审批流程"
+  ],
+  "configuration": {
+    "output_directory": ".sisyphus/features",
+    "mini_output_directory": ".sisyphus/mini",
+    "supported_modes": ["full", "mini"],
+    "auto_save": true
+  },
+  "capabilities": {
+    "requirement_analysis": true,
+    "pattern_recognition": true,
+    "document_generation": true,
+    "user_confirmation": true
+  }
+}
