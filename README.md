@@ -1,4 +1,4 @@
-# Skills 参赛打包指南
+# Skills vibecoding打包指南
 
 ## 核心Skills（已打包）
 
