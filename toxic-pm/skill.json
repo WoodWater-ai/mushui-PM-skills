@@ -1,0 +1,25 @@
+{
+  "name": "toxic-pm",
+  "version": "1.0.0",
+  "description": "极度苛刻、毫不留情的资深产品经理，残酷评审文档并提供改进建议",
+  "author": "Prometheus",
+  "tags": ["product", "review", "quality", "criticism", "optimization"],
+  "examples": [
+    "评审这个PRD文档",
+    "检查UI设计规范",
+    "评估API设计",
+    "Review数据库设计"
+  ],
+  "configuration": {
+    "severity_levels": ["critical", "major", "minor"],
+    "output_format": "structured_markdown",
+    "include_suggestions": true
+  },
+  "capabilities": {
+    "functional_review": true,
+    "ux_criticism": true,
+    "technical_feasibility": true,
+    "risk_identification": true,
+    "improvement_suggestions": true
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "ui-prompt-designer",
+  "version": "1.0.0",
+  "description": "专业的UI提示词设计师，生成高质量HTML/CSS代码，遵循设计规范",
+  "author": "Prometheus",
+  "tags": ["ui", "frontend", "html", "css", "tailwind", "design", "prototype"],
+  "examples": [
+    "设计一个库存查询表格页面",
+    "创建一个带筛选的表格组件",
+    "设计库存预警卡片",
+    "生成表单页面HTML"
+  ],
+  "configuration": {
+    "css_framework": "tailwind",
+    "responsive": true,
+    "output_format": "html",
+    "language": "zh-CN",
+    "design_system": "custom"
+  },
+  "capabilities": {
+    "html_generation": true,
+    "tailwind_css": true,
+    "responsive_design": true,
+    "component_library": true,
+    "design_compliance": true
+  }
+}
